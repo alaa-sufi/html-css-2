@@ -18,10 +18,10 @@ body {
   margin: auto;
   padding: 0 1rem;
 }
-.bg-primary{
+.bg-primary {
   background-color: var(--primary-color);
 }
-.m-section{
+.m-section {
   margin: 5rem 0;
 }
 /* end global */
@@ -143,11 +143,12 @@ body {
 .features-section_block_item_flex {
   display: flex;
   gap: 1rem;
+  align-items: start;
 }
 .features-section_block_item_flex img {
   background: #fff;
-  padding: 1.2rem;
-  width: 50px;
+  padding: 0.75rem;
+  width: 100px;
 }
 .features-section_block_item_flex h4 {
   font-size: 1.2rem;
@@ -177,7 +178,7 @@ body {
   background-color: transparent;
 }
 /* md */
-@media (min-width: 768px){
+@media (min-width: 768px) {
   .features-section .features-section_block_item {
     grid-template-columns: 1fr 1fr;
   }
